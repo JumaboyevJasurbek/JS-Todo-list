@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css">
+    <title>Super Task List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Todo list</h1>
+        <form id="form-todo">
+            <label for="title">Todo title</label>
+            <input type="text" id="title" placeholder="Type to do something..." />
+            <div class="action-btn">
+                <button class="add-todo">Add todo</button>
+            </div>
+        </form>
+        <!-- <div id="search-todo">
+            <input type="text" id="search" placeholder="Search todo..." />
+        </div> -->
+        <!-- <div class="search-list"></div> -->
+        <div class="task-list"></div>
+        <button class="clear-btn">Clear Todo</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

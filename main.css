@@ -1,0 +1,87 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#form-todo,
+#search-todo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.heading {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 54px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.clear-btn {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: aliceblue;
+    border: 1px solid cadetblue;
+}
+
+#title,
+#search {
+    margin: 15px 0;
+    padding: 10px 5px;
+    outline: none;
+    font-size: 22px;
+}
+
+.action-btn {
+    width: 20%;
+    margin: 15px auto;
+}
+
+.action-btn>button {
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: blanchedalmond;
+    background-color: rgb(136, 99, 214);
+    border: 0;
+}
+
+.task-list {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+}
+
+.task {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.todo-title {
+    margin-left: 40px;
+    flex: 1;
+}
+
+.del-todo {
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.check-todo {
+    cursor: pointer;
+    background-color: rgb(210, 210, 210);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
